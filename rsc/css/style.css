@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 
 .card {
@@ -14,5 +16,73 @@ body {
     max-width: 400px;
     width: 100%;
     padding: 30px;
-    flex-direction: column  ;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 12px;
+    box-shadow: 8px 8px 0px #000;
+    gap: 24px;
+}
+
+.card img {
+    border-radius: 12px;
+    width: 100%;
+    object-fit: over;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-content span {
+    background-color: var(--cor-fundo-body);
+    color: var(--cor-títulos);
+    width: fit-content;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 800;
+    padding: 4px 12px;
+    margin-top: 15px;
+    width: fit-content;
+}
+
+.card-content .date {
+    font-size: 14px;
+    color: var(--cor-títulos);
+}
+
+.card-content h1 a {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--cor-títulos);
+}
+
+.card-content h1 a:hover {
+    color: var(--cor-fundo-body);
+    cursor: pointer;
+}
+
+.card .card-content p {
+    color: var(--cor-paragrafo);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.author-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.author-info img {
+    width: 35px;
+    height: 35px;
+}
+
+.author-info p {
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--cor-títulos);
 }

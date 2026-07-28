@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    .card {
+        max-width: 300px;
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    .card .card-content span{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .card .card-content p {
+        font-size: 14px;
+    }
+
+    .card .card-content h1 {
+        font-size: 20px;
+    }
+
+    .author-info p {
+        font-size: 14px;
+    }
+
+    
+}
